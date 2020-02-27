@@ -1,0 +1,72 @@
+body {
+
+    h2 {
+        color: black !important;
+    }
+
+
+}
+
+#table_produk_paginate {
+    a.paginate_button {
+        &:hover {
+            background-color: #0253A2 !important;
+            color: white;
+        }
+
+    }
+}
+
+.section-table {
+
+
+    th {
+        color: black;
+        font-weight: 900;
+
+
+    }
+
+    tr {
+        color: black;
+    }
+}
+
+.btn-light {
+    &:hover {
+        background-color: rgb(87, 87, 87);
+    }
+}
+
+.side-bar-section {
+    background: linear-gradient(#0253A2 10%, rgb(5, 114, 223) 90%);
+}
+
+button {
+    background-color: #0253A2 !important;
+
+    &:hover {
+        background-color: rgb(1, 49, 97) !important;
+    }
+}
+
+
+.button-section {
+    a.btn {
+        background-color: #0253A2 !important;
+        color: white;
+
+        &:hover {
+            background-color: rgb(1, 49, 97) !important;
+            color: white;
+        }
+    }
+}
+
+.print-button {
+    background-color: #0253A2 !important;
+
+    &:hover {
+        background-color: rgb(1, 49, 97) !important;
+    }
+}
